@@ -1,0 +1,22 @@
+{
+  "name": "tweedr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "debugger": "DEBUG=*:* nodemon server.js"
+  },
+  "proxy": "http://localhost:3001",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.1",
+    "pg-promise": "^5.7.1"
+  }
+}

@@ -1,0 +1,27 @@
+.main-container {
+  width: 600px;
+  height: 500px;
+  border: #462247 solid 3px;
+  background: #e4c5e5;
+  margin: 0 auto;
+}
+
+form {
+  background: rgba(255,255,255,0.5);
+  margin: 0 auto;
+}
+
+.feed {
+  width: 200px;
+  height: 200px;
+  border: #462247 solid 2px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 auto;
+}
+
+a {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  border: #462247 solid 1px;
+}
